@@ -7,5 +7,10 @@ def solution(str)
   end
   #Create Array and split string into pairs of two characters
   arr = []
-  arr << str.chars.each_slice(2).map(&:join)
+  arr = str.chars.each_slice(2).map(&:join)
+  puts arr[0]
+  return arr
 end
+
+me = solution("AABBCC")
+puts me
