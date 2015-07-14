@@ -1,16 +1,14 @@
-def solution(str)
-  #-- get the length of the strin
-  stringLength = str.length
-  #-- if not even legth string then pad end with an underscore "_"
-  if stringLength % 2 != 0 then
-    str << "_"
-  end
-  #Create Array and split string into pairs of two characters
-  arr = []
-  arr = str.chars.each_slice(2).map(&:join)
-  puts arr[0]
-  return arr
-end
+require_relative 'cards'
 
-me = solution("AABBCC")
-puts me
+cards = []
+symbols = CardSymbols.new
+suits = CardSuits.new
+
+i = 0 
+for suit in suits
+  for symbol in symbols.keys
+    cards[i] = Card.new(symbol, suit)
+    i += 1
+  end
+end
+puts cards
