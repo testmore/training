@@ -55,9 +55,3 @@ class Shoe < Deck
   end
 
 end
-
-newshoe = Shoe.new(3)
-puts newshoe.to_s
-puts "--------"
-newshoe.shuffle
-puts newshoe.deal_hand(1,2)
