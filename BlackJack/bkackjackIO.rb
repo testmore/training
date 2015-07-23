@@ -1,17 +1,3 @@
-Skip to content
-This repository  
-Pull requests
-Issues
-Gist
- @testmore
- Watch 1
-  Star 3
-  Fork 6
-cklone/blackjack-ruby
- branch: master  blackjack-ruby/BlackJackIO.rb
-@cklonecklone on Dec 15, 2011 initial import
-1 contributor
-RawBlameHistory     515 lines (475 sloc)  14.432 kB
 require 'BlackJackGame'
 require 'Shoe'
 require 'Player'
