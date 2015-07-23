@@ -11,6 +11,7 @@ for suit in suits
     i += 1
   end
 <<<<<<< HEAD
+<<<<<<< HEAD
 end
 puts cards
 =======
@@ -24,3 +25,7 @@ end
 me = solution("AABBCC")
 puts me
 >>>>>>> 62cd1d6... kata training update
+=======
+end
+puts cards
+>>>>>>> d918bed7dba76f0f94ee4704f5a8855b32272f47
