@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE06F98F1B6172BA00FEFD4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06F98E1B6172BA00FEFD4C /* main.m */; };
+		CE06F9921B6172BA00FEFD4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06F9911B6172BA00FEFD4C /* AppDelegate.m */; };
+		CE06F9981B6172BA00FEFD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE06F9961B6172BA00FEFD4C /* Main.storyboard */; };
+		CE06F99A1B6172BA00FEFD4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE06F9991B6172BA00FEFD4C /* Images.xcassets */; };
+		CE06F99D1B6172BA00FEFD4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE06F99B1B6172BA00FEFD4C /* LaunchScreen.xib */; };
+		CE06F9A91B6172BB00FEFD4C /* icecreamgpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06F9A81B6172BB00FEFD4C /* icecreamgpsTests.m */; };
+		CE06F9B71B621E1200FEFD4C /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06F9B61B621E1200FEFD4C /* ToDoListTableViewController.m */; };
+		CE06F9BA1B621E5C00FEFD4C /* AddToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06F9B91B621E5C00FEFD4C /* AddToDoListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE06F9A31B6172BB00FEFD4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE06F9811B6172BA00FEFD4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE06F9881B6172BA00FEFD4C;
+			remoteInfo = icecreamgps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE06F9891B6172BA00FEFD4C /* icecreamgps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icecreamgps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE06F98D1B6172BA00FEFD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE06F98E1B6172BA00FEFD4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE06F9901B6172BA00FEFD4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE06F9911B6172BA00FEFD4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE06F9971B6172BA00FEFD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE06F9991B6172BA00FEFD4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE06F99C1B6172BA00FEFD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE06F9A21B6172BB00FEFD4C /* icecreamgpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = icecreamgpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE06F9A71B6172BB00FEFD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE06F9A81B6172BB00FEFD4C /* icecreamgpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = icecreamgpsTests.m; sourceTree = "<group>"; };
+		CE06F9B51B621E1200FEFD4C /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		CE06F9B61B621E1200FEFD4C /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		CE06F9B81B621E5C00FEFD4C /* AddToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoListViewController.h; sourceTree = "<group>"; };
+		CE06F9B91B621E5C00FEFD4C /* AddToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE06F9861B6172BA00FEFD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE06F99F1B6172BB00FEFD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE06F9801B6172BA00FEFD4C = {
+			isa = PBXGroup;
+			children = (
+				CE06F98B1B6172BA00FEFD4C /* icecreamgps */,
+				CE06F9A51B6172BB00FEFD4C /* icecreamgpsTests */,
+				CE06F98A1B6172BA00FEFD4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE06F98A1B6172BA00FEFD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE06F9891B6172BA00FEFD4C /* icecreamgps.app */,
+				CE06F9A21B6172BB00FEFD4C /* icecreamgpsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE06F98B1B6172BA00FEFD4C /* icecreamgps */ = {
+			isa = PBXGroup;
+			children = (
+				CE06F9901B6172BA00FEFD4C /* AppDelegate.h */,
+				CE06F9911B6172BA00FEFD4C /* AppDelegate.m */,
+				CE06F9961B6172BA00FEFD4C /* Main.storyboard */,
+				CE06F9B51B621E1200FEFD4C /* ToDoListTableViewController.h */,
+				CE06F9B61B621E1200FEFD4C /* ToDoListTableViewController.m */,
+				CE06F9991B6172BA00FEFD4C /* Images.xcassets */,
+				CE06F99B1B6172BA00FEFD4C /* LaunchScreen.xib */,
+				CE06F98C1B6172BA00FEFD4C /* Supporting Files */,
+				CE06F9B81B621E5C00FEFD4C /* AddToDoListViewController.h */,
+				CE06F9B91B621E5C00FEFD4C /* AddToDoListViewController.m */,
+			);
+			path = icecreamgps;
+			sourceTree = "<group>";
+		};
+		CE06F98C1B6172BA00FEFD4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE06F98D1B6172BA00FEFD4C /* Info.plist */,
+				CE06F98E1B6172BA00FEFD4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE06F9A51B6172BB00FEFD4C /* icecreamgpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE06F9A81B6172BB00FEFD4C /* icecreamgpsTests.m */,
+				CE06F9A61B6172BB00FEFD4C /* Supporting Files */,
+			);
+			path = icecreamgpsTests;
+			sourceTree = "<group>";
+		};
+		CE06F9A61B6172BB00FEFD4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE06F9A71B6172BB00FEFD4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE06F9881B6172BA00FEFD4C /* icecreamgps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE06F9AC1B6172BB00FEFD4C /* Build configuration list for PBXNativeTarget "icecreamgps" */;
+			buildPhases = (
+				CE06F9851B6172BA00FEFD4C /* Sources */,
+				CE06F9861B6172BA00FEFD4C /* Frameworks */,
+				CE06F9871B6172BA00FEFD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = icecreamgps;
+			productName = icecreamgps;
+			productReference = CE06F9891B6172BA00FEFD4C /* icecreamgps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE06F9A11B6172BB00FEFD4C /* icecreamgpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE06F9AF1B6172BB00FEFD4C /* Build configuration list for PBXNativeTarget "icecreamgpsTests" */;
+			buildPhases = (
+				CE06F99E1B6172BB00FEFD4C /* Sources */,
+				CE06F99F1B6172BB00FEFD4C /* Frameworks */,
+				CE06F9A01B6172BB00FEFD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE06F9A41B6172BB00FEFD4C /* PBXTargetDependency */,
+			);
+			name = icecreamgpsTests;
+			productName = icecreamgpsTests;
+			productReference = CE06F9A21B6172BB00FEFD4C /* icecreamgpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE06F9811B6172BA00FEFD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Darren;
+				TargetAttributes = {
+					CE06F9881B6172BA00FEFD4C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CE06F9A11B6172BB00FEFD4C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CE06F9881B6172BA00FEFD4C;
+					};
+				};
+			};
+			buildConfigurationList = CE06F9841B6172BA00FEFD4C /* Build configuration list for PBXProject "icecreamgps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE06F9801B6172BA00FEFD4C;
+			productRefGroup = CE06F98A1B6172BA00FEFD4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE06F9881B6172BA00FEFD4C /* icecreamgps */,
+				CE06F9A11B6172BB00FEFD4C /* icecreamgpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE06F9871B6172BA00FEFD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE06F9981B6172BA00FEFD4C /* Main.storyboard in Resources */,
+				CE06F99D1B6172BA00FEFD4C /* LaunchScreen.xib in Resources */,
+				CE06F99A1B6172BA00FEFD4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE06F9A01B6172BB00FEFD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE06F9851B6172BA00FEFD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE06F9BA1B621E5C00FEFD4C /* AddToDoListViewController.m in Sources */,
+				CE06F9B71B621E1200FEFD4C /* ToDoListTableViewController.m in Sources */,
+				CE06F9921B6172BA00FEFD4C /* AppDelegate.m in Sources */,
+				CE06F98F1B6172BA00FEFD4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE06F99E1B6172BB00FEFD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE06F9A91B6172BB00FEFD4C /* icecreamgpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE06F9A41B6172BB00FEFD4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE06F9881B6172BA00FEFD4C /* icecreamgps */;
+			targetProxy = CE06F9A31B6172BB00FEFD4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE06F9961B6172BA00FEFD4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE06F9971B6172BA00FEFD4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE06F99B1B6172BA00FEFD4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE06F99C1B6172BA00FEFD4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE06F9AA1B6172BB00FEFD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE06F9AB1B6172BB00FEFD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE06F9AD1B6172BB00FEFD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = icecreamgps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE06F9AE1B6172BB00FEFD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = icecreamgps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE06F9B01B6172BB00FEFD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = icecreamgpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/icecreamgps.app/icecreamgps";
+			};
+			name = Debug;
+		};
+		CE06F9B11B6172BB00FEFD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = icecreamgpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/icecreamgps.app/icecreamgps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE06F9841B6172BA00FEFD4C /* Build configuration list for PBXProject "icecreamgps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE06F9AA1B6172BB00FEFD4C /* Debug */,
+				CE06F9AB1B6172BB00FEFD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE06F9AC1B6172BB00FEFD4C /* Build configuration list for PBXNativeTarget "icecreamgps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE06F9AD1B6172BB00FEFD4C /* Debug */,
+				CE06F9AE1B6172BB00FEFD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE06F9AF1B6172BB00FEFD4C /* Build configuration list for PBXNativeTarget "icecreamgpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE06F9B01B6172BB00FEFD4C /* Debug */,
+				CE06F9B11B6172BB00FEFD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE06F9811B6172BA00FEFD4C /* Project object */;
+}
